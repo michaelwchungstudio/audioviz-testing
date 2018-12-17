@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.audioButtons {
+  margin: 0 auto;
+}
+
+#playButton {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border: 1px solid red;
+  background-color: green;
+  cursor: pointer;
+}
+
+#pauseButton {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border: 1px solid green;
+  background-color: red;
+  cursor: pointer;
+}
+
+#avCanvas {
+  display: block;
+  margin: 50px auto;
+}
